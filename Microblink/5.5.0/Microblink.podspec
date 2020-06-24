@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name        = "Microblink"
-  s.version     = "5.5.1"
+  s.version     = "5.5.2"
   s.summary     = "A delightful component for barcode scanning"
   s.homepage    = "http://microblink.com"
   
