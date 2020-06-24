@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
         "Jura Skrlec" => "jura.skrlec@microblink.com"
   }
 
-  s.source    = { :git => 'https://github.com/skorostetskyi/microblink.git', :tag => spec.version.to_s }
+  s.source    = { :git => 'https://github.com/skorostetskyi/microblink.git', :tag => s.version.to_s }
 
   s.platform     = :ios
 
