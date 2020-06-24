@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name        = "PPBlinkID"
+  s.name        = "Microblink"
   s.version     = "5.5.0"
   s.summary     = "A delightful component for barcode scanning"
   s.homepage    = "http://microblink.com"
