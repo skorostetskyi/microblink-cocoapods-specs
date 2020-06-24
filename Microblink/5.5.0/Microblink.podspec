@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0.0'
   s.ios.requires_arc = false
-  s.ios.vendored_frameworks = 'Microblink.framework'
+  s.ios.vendored_frameworks = 'Microblink'
   s.ios.frameworks = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'AssetsLibrary', 'CoreMedia'
   s.ios.libraries = 'c++', 'iconv', 'z'
 
