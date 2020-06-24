@@ -36,16 +36,17 @@ Pod::Spec.new do |s|
         "Jura Skrlec" => "jura.skrlec@microblink.com"
   }
 
-  s.source    = { :git => 'https://github.com/skorostetskyi/microblink.git', :tag => s.version.to_s }
+  s.source    = { :http => "https://skorostetskyi.com/microblink_5_5_0.zip" }
 
   s.platform     = :ios
 
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.ios.deployment_target = '8.0.0'
+  s.ios.resources = "microblink_5_5_0/Microblink.bundle"
   s.ios.requires_arc = false
   s.ios.framework    = "Microblink"
-  s.ios.vendored_frameworks = "Microblink.framework"
+  s.ios.vendored_frameworks = "microblink_5_5_0/Microblink.framework"
   s.ios.frameworks = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'AssetsLibrary', 'CoreMedia'
   s.ios.libraries = 'c++', 'iconv', 'z'
 
