@@ -43,10 +43,10 @@ Pod::Spec.new do |s|
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.ios.deployment_target = '10.0.0'
-  s.ios.resources = "PassbaseBlinkID_5.5.0/Microblink.bundle"
+  s.ios.resources = "Microblink.bundle"
   s.ios.requires_arc = false
   s.ios.framework    = "Microblink"
-  s.ios.vendored_frameworks = "PassbaseBlinkID_5.5.0/Microblink.framework"
+  s.ios.vendored_frameworks = "Microblink.framework"
   s.ios.frameworks = 'Accelerate', 'AVFoundation', 'AudioToolbox', 'AssetsLibrary', 'CoreMedia'
   s.ios.libraries = 'c++', 'iconv', 'z'
 
