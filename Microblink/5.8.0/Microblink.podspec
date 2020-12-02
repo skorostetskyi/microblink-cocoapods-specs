@@ -43,6 +43,7 @@ Pod::Spec.new do |s|
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.ios.deployment_target = '10.0.0'
+  s.ios.resources = "Microblink.bundle"
   s.ios.requires_arc = false
   s.ios.framework    = "Microblink"
   s.ios.vendored_frameworks = "Microblink.framework"
