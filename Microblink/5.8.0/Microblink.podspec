@@ -36,14 +36,13 @@ Pod::Spec.new do |s|
         "Jura Skrlec" => "jura.skrlec@microblink.com"
   }
 
-  s.source    = { :http => "https://button.passbase.com/__ios/PassbaseBlinkID_5.8.0.zip" }
+  s.source    = { :git => 'https://github.com/skorostetskyi/microblink.git', :tag => s.version.to_s }
 
   s.platform     = :ios
 
   # ――― MULTI-PLATFORM VALUES ――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.ios.deployment_target = '10.0.0'
-  s.ios.resources = "Microblink.bundle"
+  s.ios.deployment_target = '8.0.0'
   s.ios.requires_arc = false
   s.ios.framework    = "Microblink"
   s.ios.vendored_frameworks = "Microblink.framework"
